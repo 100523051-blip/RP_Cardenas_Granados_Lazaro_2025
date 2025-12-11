@@ -1,0 +1,13 @@
+<launch>
+    <!-- Set parameters -->
+    <param name="user_name" value="player1" type="string" />
+    <param name="change_player_color" value="1" type="int" />
+    <param name="screen_param" value="phase1" type="string" />
+
+    <node pkg="game_pkg" type="INFO_USER.py" name="info_user" output="screen" />
+    <node pkg="game_pkg" type="GAME_NODE.py" name="game_node" output="screen" />
+    <node pkg="game_pkg" type="CONTROL_NODE.py" name="control_node" output="screen" />
+    <node pkg="game_pkg" type="RESULT_NODE.py" name="result_node" output="screen" />
+    <node pkg="game_pkg" type="CLIENT_NODE.py" name="client_node" output="screen" />
+    <node pkg="game_pkg" type="DIFFICULTY_NODE.py" name="diffculty_node" output="screen" />
+</launch>
