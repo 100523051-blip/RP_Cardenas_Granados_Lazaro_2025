@@ -7,7 +7,7 @@ Marcos Granados, Carlos Lázaro and Hugo Cárdenas
 Install ROS Noetic in the device using the official ROS wiki.
 
 ## Catkin Initialization
-Catkin enviroment should be initialized and built for the game to work.
+Catkin enviroment should be initialized and built for the game to work. The package files should be with the other packages inside the directory catkin_ws/src/
 
 
 ## ROS Nodes
